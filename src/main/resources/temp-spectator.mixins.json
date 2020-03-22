@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ozankurt.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "core.CommandManagerMixin",
+    "player.PlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

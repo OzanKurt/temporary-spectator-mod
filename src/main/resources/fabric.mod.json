@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "temp-spectator",
+  "version": "${version}",
+
+  "name": "Temporary Spectator",
+  "description": "Temporary Spectator",
+  "authors": [
+    "hello@ozankurt.com"
+  ],
+  "contact": {
+    "homepage": "https://ozankurt.com/",
+    "sources": "https://github.com/OzanKurt/temporary-spectator-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/temp-spectator/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ozankurt.TemporarySpectatorMod"
+    ]
+  },
+  "mixins": [
+    "temp-spectator.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
