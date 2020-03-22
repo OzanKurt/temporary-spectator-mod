@@ -1,4 +1,4 @@
-# Corona Mod
+# Temporary Spectator Mod
 
 ## Setup
 
